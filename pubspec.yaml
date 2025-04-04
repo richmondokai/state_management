@@ -1,0 +1,31 @@
+name: flutter_assessment3
+description: "A Flutter project demonstrating state management techniques."
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.7.2 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_riverpod: ^2.6.1
+  shared_preferences: ^2.2.2
+  http: ^0.13.6  
+  equatable: ^2.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  test: ^1.24.0
+  mocktail: ^1.0.0
+  build_runner: ^2.4.6
+
+flutter:
+  uses-material-design: true
